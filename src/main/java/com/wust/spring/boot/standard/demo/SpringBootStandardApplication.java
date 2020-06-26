@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-@MapperScan("com.wust.spring.boot.standard.demo.mapper")
+//@MapperScan("com.wust.spring.boot.standard.demo.mapper")
 public class SpringBootStandardApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootStandardApplication.class, args);

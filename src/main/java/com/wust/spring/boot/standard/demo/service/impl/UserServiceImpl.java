@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserServiceImpl implements UserService {
-    @Autowired(required = true)
+    @Autowired(required = false)
     private UserMapper userMapper;
 
     @Override
