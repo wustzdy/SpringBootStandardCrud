@@ -1,9 +1,9 @@
-package com.wust.spring.boot.crud.service.impl;
+package com.wust.spring.boot.standard.demo.service.impl;
 
-import com.wust.spring.boot.crud.entity.UserEntity;
-import com.wust.spring.boot.crud.mapper.UserMapper;
-import com.wust.spring.boot.crud.model.User;
-import com.wust.spring.boot.crud.service.UserService;
+import com.wust.spring.boot.standard.demo.entity.UserEntity;
+import com.wust.spring.boot.standard.demo.mapper.UserMapper;
+import com.wust.spring.boot.standard.demo.model.User;
+import com.wust.spring.boot.standard.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

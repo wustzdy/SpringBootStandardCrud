@@ -1,4 +1,4 @@
-package com.wust.spring.boot.crud.model;
+package com.wust.spring.boot.standard.demo.model;
 
 import com.sensetime.sensegear.iam.spec.contant.UserGenderType;
 import lombok.Data;

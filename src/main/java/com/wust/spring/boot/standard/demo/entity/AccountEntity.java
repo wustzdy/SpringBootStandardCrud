@@ -1,4 +1,4 @@
-package com.wust.spring.boot.crud.entity;
+package com.wust.spring.boot.standard.demo.entity;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;

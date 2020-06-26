@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.wust.spring.boot.crud.ApplicationRoot
+com.wust.spring.boot.standard.demo.SpringBootStandardApplication

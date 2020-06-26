@@ -10,10 +10,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.wust.spring.boot.crud</groupId>
+    <groupId>com.wust.spring.boot.standard.demo</groupId>
     <artifactId>springBootCrud</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>javaTest</name>
+    <name>SpringBootStandardDemo</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

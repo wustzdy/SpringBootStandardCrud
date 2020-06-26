@@ -1,4 +1,4 @@
-package com.wust.spring.boot.crud.configuration;
+package com.wust.spring.boot.standard.demo.configuration;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;

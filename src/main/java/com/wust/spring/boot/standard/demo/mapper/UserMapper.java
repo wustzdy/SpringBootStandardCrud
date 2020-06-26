@@ -1,7 +1,7 @@
-package com.wust.spring.boot.crud.mapper;
+package com.wust.spring.boot.standard.demo.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.wust.spring.boot.crud.entity.UserEntity;
+import com.wust.spring.boot.standard.demo.entity.UserEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

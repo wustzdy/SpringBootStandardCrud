@@ -1,4 +1,4 @@
-package com.wust.spring.boot.crud.entity;
+package com.wust.spring.boot.standard.demo.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;

@@ -1,4 +1,4 @@
-package com.wust.spring.boot.crud;
+package com.wust.spring.boot.standard.demo;
 
 
 import org.mybatis.spring.annotation.MapperScan;
@@ -10,9 +10,9 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-@MapperScan("com.wust.spring.boot.crud.mapper")
-public class ApplicationRoot {
+@MapperScan("com.wust.spring.boot.standard.demo.mapper")
+public class SpringBootStandardApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ApplicationRoot.class, args);
+        SpringApplication.run(SpringBootStandardApplication.class, args);
     }
 }
