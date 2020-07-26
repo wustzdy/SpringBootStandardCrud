@@ -1,6 +1,7 @@
 --liquibase formatted sql
 
 --changeset zhudayang:20200604-10
+DROP TABLE IF EXISTS `iam_users`;
 CREATE TABLE `iam_users` (
     `id` bigint(20) unsigned NOT NULL COMMENT '分布式主id',
     /*`tenant_id` bigint(20) unsigned NOT NULL COMMENT '所属租户id',

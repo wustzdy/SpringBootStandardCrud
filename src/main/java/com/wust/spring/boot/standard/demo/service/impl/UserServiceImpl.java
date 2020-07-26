@@ -10,10 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 
-@SuppressWarnings("all")
 @Service
 public class UserServiceImpl implements UserService {
-    @Autowired(required = true)
+    @Autowired
     private UserMapper userMapper;
 
     @Override

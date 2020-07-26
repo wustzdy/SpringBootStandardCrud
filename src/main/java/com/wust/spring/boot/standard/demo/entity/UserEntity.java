@@ -14,14 +14,14 @@ import java.util.Date;
 public class UserEntity {
     public static final String TABLE_NAME = "iam_users";
 
-    @TableId(type = IdType.AUTO)
+    @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
-    @TableField
+    @TableField(value = "user_name")
     private String userName;
-    @TableField
+    @TableField(value = "gender")
     private UserGenderType gender;
-    @TableField
+    @TableField(value = "birthday")
     private Date birthday;
 
 }

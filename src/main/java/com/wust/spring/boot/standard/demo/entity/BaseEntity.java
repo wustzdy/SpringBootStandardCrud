@@ -14,7 +14,7 @@ import java.util.Date;
 @EqualsAndHashCode(callSuper = true)
 public class BaseEntity<T extends BaseEntity<?>> extends Model<T> {
 
-    @TableId(type = IdType.AUTO)
+    @TableId(value = "id", type = IdType.AUTO)
     private Long id;
     @TableField(fill = FieldFill.INSERT)
     private Long ownedById;
