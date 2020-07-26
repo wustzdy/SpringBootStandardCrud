@@ -1,9 +1,7 @@
 package com.wust.spring.boot.standard.demo;
 
 
-import com.wust.spring.boot.standard.demo.mapper.UserMapper;
 import org.mybatis.spring.annotation.MapperScan;
-import org.mybatis.spring.annotation.MapperScans;
 import org.springframework.boot.SpringApplication;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;

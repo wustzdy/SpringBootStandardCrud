@@ -1,6 +1,6 @@
 package com.wust.spring.boot.standard.demo.service.impl;
 
-import com.sensetime.sensegear.iam.spec.contant.UserGenderType;
+import com.wust.spring.boot.standard.demo.contant.UserGenderType;
 import com.wust.spring.boot.standard.demo.entity.UserEntity;
 import com.wust.spring.boot.standard.demo.mapper.UserMapper;
 import com.wust.spring.boot.standard.demo.model.User;
@@ -13,7 +13,7 @@ import java.util.Date;
 @SuppressWarnings("all")
 @Service
 public class UserServiceImpl implements UserService {
-    @Autowired(required = false)
+    @Autowired(required = true)
     private UserMapper userMapper;
 
     @Override
@@ -22,6 +22,7 @@ public class UserServiceImpl implements UserService {
         userEntity.setUserName(user.getUserName());
         userEntity.setBirthday(new Date());
         userEntity.setGender(UserGenderType.FEMALE);
+        userEntity.setId(1000l);
 
         return userMapper.insert(userEntity);
     }

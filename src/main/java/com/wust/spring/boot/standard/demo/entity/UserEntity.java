@@ -1,18 +1,21 @@
 package com.wust.spring.boot.standard.demo.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.sensetime.sensegear.iam.spec.contant.UserGenderType;
+import com.wust.spring.boot.standard.demo.contant.UserGenderType;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 
 import java.util.Date;
 
 @Data
-@EqualsAndHashCode(callSuper = true)
 @TableName(UserEntity.TABLE_NAME)
-public class UserEntity extends BaseEntity<UserEntity> {
+public class UserEntity {
     public static final String TABLE_NAME = "iam_users";
+
+    @TableId(type = IdType.AUTO)
+    private Long id;
 
     @TableField
     private String userName;
@@ -21,27 +24,4 @@ public class UserEntity extends BaseEntity<UserEntity> {
     @TableField
     private Date birthday;
 
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public UserGenderType getGender() {
-        return gender;
-    }
-
-    public void setGender(UserGenderType gender) {
-        this.gender = gender;
-    }
-
-    public Date getBirthday() {
-        return birthday;
-    }
-
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
-    }
 }

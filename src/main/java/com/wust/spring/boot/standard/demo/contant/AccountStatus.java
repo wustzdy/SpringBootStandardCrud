@@ -1,4 +1,4 @@
-package com.sensetime.sensegear.iam.spec.contant;
+package com.wust.spring.boot.standard.demo.contant;
 
 public enum AccountStatus {
     UNKNOWN,

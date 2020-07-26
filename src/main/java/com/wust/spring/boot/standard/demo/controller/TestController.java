@@ -10,6 +10,7 @@ public class TestController {
     @RequestMapping("/test")
     public String tets(HttpServletRequest httpServletRequest) {
         httpServletRequest.getParameterMap();
+        System.out.println("Hello controller ...");
         return "20190520 Hello World";
     }
 
