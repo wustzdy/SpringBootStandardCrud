@@ -33,7 +33,7 @@ public class AutoConfiguration {
     public SpringLiquibase iamLiquibase() {
         SpringLiquibase liquibase = new SpringLiquibase();
         liquibase.setDataSource(liquibaseDataSource());
-        liquibase.setChangeLog("classpath:iam-changelog.xml");
+        liquibase.setChangeLog("classpath:user-changelog.xml");
         liquibase.setContexts("development,test,production");
         liquibase.setShouldRun(true);
         return liquibase;

@@ -3,7 +3,7 @@ package com.wust.spring.boot.standard.demo.configuration;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "mysql.iam.liquibasedatasource")
+@ConfigurationProperties(prefix = "mysql.user.liquibasedatasource")
 @Data
 public class IamLiquibaseDataSourceProperties {
     private String driver;
