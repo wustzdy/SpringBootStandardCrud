@@ -38,4 +38,5 @@ public class AutoConfiguration {
         liquibase.setShouldRun(true);
         return liquibase;
     }
+
 }
