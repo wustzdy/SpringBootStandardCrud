@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <!-- 定义log文件的目录 -->
-    <property name="LOG_HOME" value="/Users/wustzdy/logs/application"></property>
+    <property name="LOG_HOME" value="/Users/zhudayang/logs/application"></property>
     <!--控制台输出appender-->
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <!--设置输出格式-->
